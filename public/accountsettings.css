@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+  padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin-top:20px;
+    text-align: center;
+    background:  radial-gradient(#fff,#c5ceff);
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 5%;
+    margin-top: 25px;
+}
+nav ul li:hover{
+    background: #3b69ff;
+}
+nav
+{
+    flex: 1 ;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 20px;
+    transition: background 0.5s;
+}
+a
+{
+    text-decoration: none;
+    color: #555;
+}
+.container
+{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px ;
+    padding-right: 25px ;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+/**
+ * Panels
+ */
+/*** General styles ***/
+.panel {
+  box-shadow: none;
+  background: white;
+  padding: 25px;
+}
+.panel-heading {
+  border-bottom: 0;
+}
+.panel-title {
+  font-size: 17px;
+}
+.panel-title > small {
+  font-size: .75em;
+  color: #999999;
+}
+.panel-body{
+    background: #e0e5ff;
+    border-radius: 5%;
+}
+.panel-body *:first-child {
+  margin-top: 0;
+}
+.panel-footer {
+  border-top: 0;
+}
+
+.panel-default > .panel-heading {
+    color: #333333;
+    background-color: transparent;
+    border-color: rgba(0, 0, 0, 0.07);
+}
+
+form label {
+    color: #999999;
+    font-weight: 400;
+}
+
+.form-horizontal .form-group {
+  margin-left: -15px;
+  margin-right: -15px;
+
+}
+@media (min-width: 768px) {
+  .form-horizontal .control-label {
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 7px;
+  }
+}
+button.btn{
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    width: 25%;
+    border-radius: 3px;
+    background: rgb(134, 186, 199);
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin: 5px 2px ;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 10px;
+    transition: background .3s ease-in-out;
+    box-shadow: 0px 5px 7px 0px rgba(0,0,0,.3);
+    color: black;
+}
+
+.profile__contact-info-icon {
+    float: left;
+    font-size: 18px;
+    color: #999999;
+}
+.profile__contact-info-body {
+    overflow: hidden;
+    padding-left: 20px;
+    color: #999999;
+}
+.profile-avatar {
+  width: 200px;
+  position: relative;
+  margin: 0px auto;
+  margin-top: 196px;
+  border: 4px solid #f3f3f3;
+}
